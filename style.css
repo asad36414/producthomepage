@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    
+}
+
+body{
+    background: #1d2630;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+    padding: 10px 15px;
+    align-items: center;
+    color: #fff;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #ee4b4b;
+}
+
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu ul li{
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+}
+
+.menu ul li:hover{
+    border-bottom: 2px solid #ee4b4b;
+}
+
+.menu ul li .fa-shopping-cart{
+    font-size: 20px;
+}
+
+.line{
+    height: 2px;
+    width: 90%;
+    margin: auto;
+    background: #444;
+    margin-top: 16px;
+}
+
+
+section{
+    margin-top: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 10px 20px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.image, .content{
+    width: 400px;
+}
+
+.content .texts h6{
+    font-size: 14px;
+    font-weight: 300;
+    color: #ee4b4b;
+    text-transform: uppercase;
+}
+
+
+.texts h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.texts p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #e6d5b8;
+    padding: 15px;
+}
+
+.content button{
+    color: #fff;
+    background: #ee4b4b;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 55px;
+}
+
+.texts{
+    position: relative;
+}
+
+.texts::before{
+    content: '';
+    width: 4px;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    left: -20px;
+}
